@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #F5E6C5;
+    background-image: url(img/fondo.png);
+}
+
+h1{
+    color: #E67326;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-family:  'Comfortaa';
+}
+
+
+.bienvenida p{
+    font-weight: 100;
+    font-size: 20px;
+    text-align:left;
+    margin-bottom: 50px;
+    line-height: 15px;
+    margin-left: 70px;
+}
+
+.boton1{
+    position: absolute;
+    margin-left: 70px;
+    color: #F5E6C5;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #E67326;
+    display: block;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.boton2 {
+    position: absolute;
+    margin-left: 300px;
+    color: #F5E6C5;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #737728;
+    display: block;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+nav{
+    background-color: #E67326;
+    padding: 10px;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+}
+
+.flex{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 1300px;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.menu li a{
+    color: #F5E6C5;
+}
+
+
+
+.bienvenida p{
+    color: #333331;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    font-family: 'Comfortaa', cursive;
+    line-height : 30px;
+    font-weight: 800;
+    font-size: 22px;
+
+}
+
+ul li{
+    font-family: 'Comfortaa';
+    font-weight: 900;
+}
+
+.foto1 {
+float: right;
+margin-top: 10px;
+}
+
+h2{
+    color: #737728;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 230px;
+    font-family:'Comfortaa';
+    font-weight: 900
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+
+.cafes article{
+    width: 320px;
+    height: 350px;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333331;
+}
+
+
+h3{
+    font-family: 'Comfortaa';
+    font-weight: 1000;
+    color: #E67326;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.boton3{
+    color: #F5E6C5;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #E67326;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: 'Comfortaa';
+}
+
+.boton4{
+    color: #F5E6C5;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #E67326;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: 'Comfortaa';
+}
+
+.cafes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+
+
+.boton5{
+    color: #F5E6C5;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #E67326;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: 'Comfortaa';
+}
+
+hr{ 
+    height: 2px;
+width: 90%;
+background-color: #737728
+}
+
+.footer{
+    display: flex;
+margin-left: 50px;
+}
+
+.footer li{
+    margin-left: 70px;
+    margin-right: 50px;
+    padding-top: 4px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.end p{
+    color: #737728;
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 200px;
+    text-align: center;
+    margin-right: 150px;
+}
+
+footer{
+    padding: 10px;
+}
